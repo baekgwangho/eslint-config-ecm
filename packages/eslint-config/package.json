@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "baek",
   "license": "MIT",
+  "repository": "https://github.com/baekgwangho/eslint-config-ecm.git",
+  "scripts": {
+    "push": "pnpm version patch && pnpm publish"
+  },
   "devDependencies": {
     "@angular-eslint/eslint-plugin": "^15.0.0",
     "@angular-eslint/eslint-plugin-template": "^15.0.0",
@@ -26,5 +30,8 @@
   "peerDependencies": {
     "eslint": ">= 8",
     "typescript": ">= 5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "example": "pnpm --filter example"
+    "example": "pnpm --filter example",
+    "push": "pnpm publish"
   },
   "devDependencies": {
     "prettier": "^3.2.5"

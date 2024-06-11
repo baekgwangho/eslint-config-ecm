@@ -4,8 +4,14 @@
   "main": "index.js",
   "author": "baek",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "scripts": {
+    "push": "pnpm version patch && pnpm publish"
+  },
   "peerDependencies": {
     "prettier": ">= 3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
